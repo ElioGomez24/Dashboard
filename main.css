@@ -1,6 +1,15 @@
 .ajo{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
+    width: 90%;
+    max-width: auto;
+    margin: auto;
+  /*   gap: 40px; */
+    background-color: rgba(163, 55, 47, 0.596);
+    margin-top: 10px;
 }
 
-
+#grafico{
+    background: linear-gradient(to top, black, gray,black) 
+}

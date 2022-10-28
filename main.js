@@ -20,14 +20,24 @@
           function dibujar (data){
             let contenedor = document.getElementById('contenedor')
             data.forEach((data) => {
+              /*   <div class = "container">
+                  <div class = "row">
+                    <h5> ${data.title} </h5>
+                    <div class = "col-md-3 mt-5">
+                      <img src=${data.thumb} width=300/>
+                    </div>  
+                  </div>
+                </div> */
       
               contenedor.innerHTML += `
-              <div class = "container">
-                <div class = "row">
-                  <h1> ${data.title} </h1>
-                  <div class = "col-md-3 mt-5">
-                    <img src=${data.thumb} width=300/>
-                  </div>  
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="${data.thumb}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">${data.title}</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
               `
