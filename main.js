@@ -30,15 +30,10 @@
                 </div> */
       
               contenedor.innerHTML += `
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="${data.thumb}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">${data.title}</h5>
-                    </div>
-                  </div>
-                </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 mt-5">
+                    <img src="${data.thumb}" width = "300">
+                    <h3 class = text-white>${data.title}</h3>
+                
               </div>
               `
             })

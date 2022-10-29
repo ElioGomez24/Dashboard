@@ -1,15 +1,22 @@
-.ajo{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.id1{
+    display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    max-width: auto;
-    margin: auto;
+
   /*   gap: 40px; */
-    background-color: rgba(163, 55, 47, 0.596);
+ 
     margin-top: 10px;
 }
 
 #grafico{
-    background: linear-gradient(to top, black, gray,black) 
+    background: linear-gradient(to top, black,black, rgb(56, 20, 156),black, black) 
+  }
+  #contenedor{/* 
+    background-color: blue; */
+    background-image: url("https://i.pinimg.com/564x/97/a9/0b/97a90b0feb191d6bde50897b19cb1328.jpg");
+    align-items: center;
+  }
+.card {
+  align-items: center;
+  background-image: url("https://i.pinimg.com/564x/97/a9/0b/97a90b0feb191d6bde50897b19cb1328.jpg");
+
 }
